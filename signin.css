@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Paprika', cursive;
+}
+body{
+    background: url("conferance/conferance/Conference/imgs/wallpaperflare.com_wallpaper\ \(7\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+  text-align: center;
+  margin: 120px  0 100px 0;
+  color: white;
+  
+}
+
+
+label,input{
+    display: block;
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 10px;
+    /* border-left: 3px solid rgb(248, 4, 4); */
+    color: white; 
+}
+
+input{
+    width: 300px;
+    height: 40px;
+}
+
+input{
+    background: transparent;
+    color: white;
+    border:3px solid white ;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+input{
+    background: transparent;
+    color: white;
+    border:3px solid white ;
+}
+
+input:focus{
+    outline: none;
+    border:4px solid rgb(248, 4, 4) ;
+}
+
+.btn-danger{
+    margin-top: 30px;
+}
