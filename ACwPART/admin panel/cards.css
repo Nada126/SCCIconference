@@ -1,0 +1,188 @@
+* {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+}
+.bg {
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 4rem;
+}
+.edit_form{
+  padding: 5rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.edit_form input {
+  width: 50%;
+}
+.big-title {
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+  position: relative;
+}
+
+.big-title h2 {
+  text-align: center;
+  font-size: 9rem;
+  color: rgba(0, 0, 0, 0.08);
+  
+}
+.overlaytext {
+  position: absolute;
+  z-index: 999;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
+
+.big-title h3 {
+  font-size: 3rem;
+}
+/* Cards container */
+.cards {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.cards .card {
+  min-height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 0 10px #00000054;
+  transition: all 0.3s ease;
+  margin-bottom: 20px; /* Add some spacing between stacked cards */
+}
+
+.cards .card:hover {
+  margin-right: 80px;
+  transform: rotate(3deg) translateY(-15px);
+}
+
+.cards .card .header {
+  flex-grow: 1;
+}
+
+.cards .card .header .date {
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.cards .card .footer .autor a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cards .card .footer img {
+  width: 50px;
+}
+
+.cards .card[class*="element"] {
+  margin-left: -90px;
+}
+.cards .devo {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.cards .mark {
+  background-image: linear-gradient(to top, #d53f3f 0%, #eb9191 100%);
+}
+
+.cards .tech {
+  background-image: linear-gradient(to top, #e3da61 0%, #eff1b0 100%);
+}
+
+.cards .app {
+  background-image: linear-gradient(to top, #0370ca 0%, #aacde9 100%);
+}
+.cards .invest {
+  background-image: linear-gradient(to top, #049500 0%, #a6e5a4 100%);
+}
+
+.APP {
+  color: #036fca;
+
+}
+ .Dev {
+  color: #904099;
+  
+}
+.Mark {
+
+  color: #f41014;
+
+}
+.Inv {
+  color: #049500;
+
+}
+.Tech {
+  color: #dbbf07;
+
+}
+
+.component {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  width: 750px;
+  margin: 0 auto;
+  padding-top: 30px;
+  /* padding: 3rem; */
+}
+
+.component blockquote.quote {
+  margin: auto;
+  /* margin: 0px; */
+  font-size: x-large;
+  font-weight: bolder;
+  position: relative;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 80%; /* create space for the quotes */
+  color: #484748;
+  /* margin: 1rem auto 2rem; */
+}
+.component blockquote.EN {
+  background: linear-gradient(to right, #039be5 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #039be5 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, #039be5 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #039be5 4px, transparent 4px) 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+@media (max-width: 600px) {
+  .component {
+    width: 90%;
+  }
+  .cards {
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+  }
+  .cards .card[class*="element"] {
+    margin-left: -30px;
+    margin-top: -45px;
+  }
+  .big-title h2 {
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .overlaytext{
+    position: absolute;
+    top: 15%;
+ 
+}
+.big-title h3 {
+    font-size: 2.5rem;
+  }
+}
